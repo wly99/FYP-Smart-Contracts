@@ -287,4 +287,12 @@ contract MarriageRegistry {
     {
         return officiants[officiantAddress].permissions;
     }
+
+    function getOfficiantRecord(address officiantAddress)
+        public
+        view
+        returns (OfficiantRecord memory)
+    {
+        return officiants[officiantAddress];
+    }
 }
