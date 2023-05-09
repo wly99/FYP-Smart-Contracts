@@ -1,3 +1,5 @@
+require('regenerator-runtime/runtime');
+
 // Load dependencies
 const {
   time,

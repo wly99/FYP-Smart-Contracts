@@ -8,7 +8,9 @@ function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) ||
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-// Load dependencies
+require('regenerator-runtime/runtime'); // Load dependencies
+
+
 var _require = require("@nomicfoundation/hardhat-network-helpers"),
     time = _require.time,
     loadFixture = _require.loadFixture;
